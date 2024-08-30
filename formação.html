@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Formação</title>
+    <style>
+        /* Estilo para o corpo da página */
+        body {
+            margin: 0; /* Remove a margem padrão */
+            background-color: black; /* Define a cor de fundo */
+            align-items: center;
+        }
+
+        /* Estilo para a classe container */
+        .container {
+            display: grid; /* Define o layout como grid */
+        }
+
+        /* Estilo para o cabeçalho */
+        header {
+            margin: 0; 
+            background-color: #333;
+            text-align: center; /* Centraliza o texto */
+            color: white; /* Define a cor do texto */
+            font-size: 34px; /* Define o tamanho da fonte */
+        }
+
+        /* Estilo para o menu de navegação */
+        .menu {
+            margin-top: 10px; /* Define a margem superior */
+            justify-content: center; /* Centraliza o conteúdo */
+            font-size: 20px;
+        }
+
+        /* Estilo para a seção principal */
+        .principal {
+            color: white; 
+            text-align: center;
+        }
+
+        /* Estilo para links */
+        a,
+        a:link {
+            text-decoration: none; /* Remove o sublinhado dos links */
+            padding: 8px 16px;
+            margin: 20px; /* Adiciona margem ao redor do link */
+            background-color: rgb(255, 255, 255);
+        }
+
+        /* Estilo para itens de lista */
+        li {
+            list-style: none; /* Remove o marcador da lista */
+            float: left; /* Alinha os itens da lista horizontalmente */
+        }
+
+        /* Estilo para links ao passar o mouse */
+        a:hover {
+            color: rgb(55, 0, 255); /* Altera a cor do texto ao passar o mouse */
+            border-radius: 15px; /* Adiciona bordas arredondadas */
+            cursor: pointer; /* Altera o cursor para indicar um botão clicável */
+        }
+
+        /* Estilo para a classe img */
+        .img {
+            padding: 0.8rem; /* Adiciona preenchimento */
+            margin-bottom: 0.8rem; /* Adiciona margem inferior */
+            justify-content: center;
+            color: white; 
+        }
+
+        /* Estilo para a imagem dentro da classe img */
+        .img img {
+            justify-content: center;
+            border-radius: 10px; /* Adiciona bordas arredondadas à imagem */
+            width: 325px; /* Define a largura da imagem */
+            height: 315px; /* Define a altura da imagem */
+        }
+
+        /* Estilo para o rodapé */
+        footer {
+            background-color: #333; 
+            color: #fff; 
+            padding: 1rem; 
+            text-align: center;
+        }
+        
+        /* Estilo para parágrafos */
+        p {
+            font-size: 20px; 
+        }
+
+    </style>
+</head>
+
+<body>
+    <!-- Cabeçalho da página -->
+    <header class="container">
+        <h1>Minha Formação</h1>
+    </header>
+
+    <!-- Menu de navegação -->
+    <nav class="container menu">
+        <ul>
+            <li><a href="index.html">Sobre Mim</a></li>
+            <li><a href="hobbies.html">Meus Hobbies</a></li>
+            <li><a href="formação.html">Minha Formação</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <!-- Seção para a imagem -->
+    <div class="container img">
+        <aside>
+            <img src="Imagens/estudos.jpeg">
+        </aside>
+    </div>
+
+    <!-- Seção principal com a Trajetória Acadêmica -->
+    <div class="container principal">
+        <h1>
+            <strong>Minha Trajetória Acadêmica</strong>
+        </h1>
+        <p>
+            Ensino Médio completo na Escola de Educação Básica Cedrense, concluído no ano de 2021.
+        </p>
+        <h2>Cursos</h2>
+        <p>
+            Curso de Informática Básica - WWTC em São José do Cedro-SC, com duração de 1 ano, concluído em 2017.
+        </p>
+        <h2>Faculdade/Tecnólogo</h2>
+        <p>
+            Cursando Tecnólogo em Análise e Desenvolvimento de Sistemas - UNINTER SJC-SC, com duração de 2 anos e meio, iniciado em 2024.
+        </p>
+    </div>
+
+    <!-- Rodapé da página -->
+    <footer>
+        <p>&copy; 2024 Ruan Pablo da Silva. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

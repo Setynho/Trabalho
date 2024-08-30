@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Hobbies</title>
+    <style>
+        /* Estilo para o corpo da página */
+        body {
+            margin: 0; /* Remove a margem padrão */
+            background-color: black; /* Define a cor de fundo */
+            align-items: center;
+        }
+
+        /* Estilo para a classe container */
+        .container {
+            display: grid; /* Define o layout como grid */
+        }
+
+        /* Estilo para o cabeçalho */
+        header {
+            margin-top: 0px; /* Remove a margem superior */
+            background-color: #333; /* Define a cor de fundo */
+            text-align: center; /* Centraliza o texto */
+            color: white; /* Define a cor do texto */
+            font-size: 34px; /* Define o tamanho da fonte */
+        }
+
+        /* Estilo para o menu de navegação */
+        .menu {
+            margin-top: 10px; /* Define a margem superior */
+            justify-content: center; /* Centraliza o conteúdo */
+            font-size: 20px; 
+        }
+
+        /* Estilo para links */
+        a,
+        a:link {
+            text-decoration: none; /* Remove o sublinhado dos links */
+            padding: 8px 16px; /* Adiciona preenchimento ao redor do texto do link */
+            margin: 20px; /* Adiciona margem ao redor do link */
+            background-color: rgb(255, 255, 255); 
+        }
+
+        /* Estilo para itens de lista */
+        li {
+            list-style: none; /* Remove o marcador da lista */
+            float: left; /* Alinha os itens da lista horizontalmente */
+        }
+
+        /* Estilo para links ao passar o mouse */
+        a:hover {
+            color: rgb(55, 0, 255); /* Altera a cor do texto ao passar o mouse */
+            border-radius: 15px;
+            cursor: pointer; /* Altera o cursor para indicar um botão clicável */ 
+        }
+
+        /* Estilo para o container de imagens */
+        .img-container {
+            display: flex; /* Define o layout como flexível */
+            align-items: center; /* Alinha os itens ao centro verticalmente */
+            margin-top: 30px; /* Adiciona margem superior */
+            margin-left: 500px; /* Adiciona margem à esquerda */
+            gap: 20px; /* Adiciona espaçamento entre os itens */
+        }
+
+        /* Estilo para as imagens dentro do container */
+        .img-container img {
+            max-width: 15%; /* Define a largura máxima das imagens */
+            border-radius: 8px; 
+        }
+
+        /* Estilo para a legenda das imagens */
+        .legenda {
+            color: white;
+            max-width: 500px; 
+            font-size: 20px; 
+        }
+
+        /* Estilo para o rodapé */
+        footer {
+            background-color: #333; /* Define a cor de fundo */
+            color: #fff; /* Define a cor do texto */
+            padding: 1rem; /* Adiciona preenchimento */
+            text-align: center; /* Centraliza o texto */
+            margin-top: 30px; /* Adiciona margem superior */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Cabeçalho da página -->
+    <header class="container">
+        <h1>Meus Hobbies</h1>
+    </header>
+
+    <!-- Menu de navegação -->
+    <nav class="container menu">
+        <ul>
+            <li><a href="index.html">Sobre Mim</a></li>
+            <li><a href="hobbies.html">Meus Hobbies</a></li>
+            <li><a href="formação.html">Minha Formação</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <!-- Seção para exibir imagens e suas legendas -->
+    <div class="container">
+        <div class="img-container">
+            <img src="Imagens/game.jpeg" alt="Jogos">
+            <div class="legenda">
+                Meu amor pelos jogos não tem descrição. Minha adolescência foi passada na frente de um computador jogando, onde fiz grandes amizades e dei muitas risadas sinceras.
+            </div>
+        </div>
+    
+        <div class="img-container">
+            <img src="Imagens/role.jpeg" alt="Rolê">
+            <div class="legenda">
+                Depois de conhecer essas pessoas, meus finais de semana foram cheios de risadas e conversas. Vários rolês em festas, bares ou qualquer lugar em que a gente se encontrava.
+            </div>
+        </div>
+    
+        <div class="img-container">
+            <img src="Imagens/Jade.jpeg" alt="Jade">
+            <div class="legenda">
+                Passar a tarde tomando um tereré na companhia da minha alma gêmea, a pitbull mais dócil que você pode conhecer. Conhecida como Jade, nome tirado de uma personagem de Mortal Kombat.
+            </div>
+        </div>
+    
+        <div class="img-container">
+            <img src="Imagens/shape.jpeg" alt="Shape">
+            <div class="legenda">
+                Agora, em 2024, a busca pelo shape está insana. A academia tem sido um dos meus lugares favoritos.
+            </div>
+        </div>
+    </div>
+    
+    <!-- Rodapé da página -->
+    <footer>
+        <p>&copy; 2024 Ruan Pablo da Silva. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

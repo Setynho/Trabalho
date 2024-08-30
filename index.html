@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tudo Sobre Mim</title>
+    <style>
+        /* Estilo para o corpo da página */
+        body {
+            margin: 0;
+            background-color: black; /* Cor de fundo da página */
+            align-items: center;
+        }
+
+        /* Estilo para containers usando grid */
+        .container {
+            display: grid;
+        }
+
+        /* Estilo para o cabeçalho */
+        header {
+            margin-top: 0px;
+            background-color: #333; /* Cor de fundo do cabeçalho */
+            text-align: center;
+            color: white; /* Cor do texto no cabeçalho */
+            font-size: 34px; /* Tamanho da fonte do cabeçalho */
+        }
+
+        /* Estilo para o menu de navegação */
+        .menu {
+            margin-top: 10px;
+            justify-content: center;
+            font-size: 20px;
+        }
+
+        /* Estilo para o conteúdo principal */
+        .principal {
+            color: white; /* Cor do texto */
+            text-align: center;
+            padding-left: 500px; /* Espaçamento interno à esquerda */
+            padding-right: 500px; /* Espaçamento interno à direita */
+        }
+
+        /* Estilo para links */
+        a,
+        a:link {
+            text-decoration: none;
+            padding: 8px 16px;
+            margin: 20px;
+            background-color: rgb(255, 255, 255); /* Cor de fundo dos links */
+        }
+
+        /* Estilo para itens de lista */
+        li {
+            list-style: none;
+            float: left; /* Posiciona os itens de lista na horizontal */
+        }
+
+        /* Estilo para links ao passar o mouse */
+        a:hover {
+            color: rgb(55, 0, 255);
+            border-radius: 15px; /* Cantos arredondados dos links */
+            cursor: pointer; /* Altera o cursor para indicar um botão clicável */
+        }
+
+        /* Estilo para a seção de imagens */
+        .img {
+            padding: 0.8rem;
+            margin-bottom: 0.8rem;
+            justify-content: center;
+            color: white;
+        }
+
+        /* Estilo para imagens dentro da seção de imagens */
+        .img img {
+            justify-content: center;
+            border-radius: 10px; /* Cantos arredondados das imagens */
+            width: 225px; /* Largura das imagens */
+            height: 315px; /* Altura das imagens */
+        }
+
+        /* Estilo para o rodapé */
+        footer {
+            background-color: #333; /* Cor de fundo do rodapé */
+            color: #fff; /* Cor do texto no rodapé */
+            padding: 1rem;
+            text-align: center;
+        }
+        
+        /* Estilo para parágrafos */
+        p {
+            font-size: 20px; /* Tamanho da fonte dos parágrafos */
+        }
+
+    </style>
+</head>
+
+<body>
+    <!-- Cabeçalho da página -->
+    <header class="container">
+        <h1>Tudo Sobre Mim</h1>
+    </header>
+
+    <!-- Menu de navegação -->
+    <nav class="container menu">
+        <ul>
+            <li><a href="index.html">Sobre Mim</a></li>
+            <li><a href="hobbies.html">Meus Hobbies</a></li>
+            <li><a href="formação.html">Minha Formação</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <!-- Seção de imagens e informações pessoais -->
+    <div class="container img">
+        <aside>
+            <img src="Imagens/ImgPerfil.jpeg" alt="Imagem de Perfil"> <!-- Imagem de perfil -->
+            <div>
+                <p><strong style="font-size: 20px;">Nome: </strong>Ruan Pablo da Silva</p>
+                <p><strong style="font-size: 20px;">Data de Nascimento: </strong>07/07/2003</p>
+                <p><strong style="font-size: 20px;">Ocupação: </strong>Militar</p>
+            </div>
+        </aside>
+    </div>
+
+    <!-- Seção principal com a história pessoal -->
+    <div class="container principal">
+        <h1>
+            <strong>Minha História Até o Momento</strong>
+        </h1>
+        <p>
+            Nascido na cidade de São José do Cedro-SC no dia 
+            7 de julho de 2003, logo após meu nascimento nos mudamos para Minas Gerais na cidade de Nova Serrana, onde passei grande parte da minha infância. 
+        </p>
+        <p>
+            Retorno para minha cidade natal por volta de 2015, e agora de volta me sinto em casa, o problema é ter adquirido o sotaque de outro estado e acabar sendo motivo de brincadeiras por conta da maneira que eu falava. Porém, ao longo do tempo, fui me acostumando com essas brincadeiras.
+        </p>
+        <p>
+            Minha adolescência foi um pouco conturbada por conta da quarentena, mas ocorreu tudo bem. Durante a pandemia consegui meu primeiro emprego na choperia Santa Hora, onde comecei a ganhar o meu primeiro salário e, após um tempo, consegui pagar minha carteira de motorista, ao mesmo tempo em que estava me preparando para ingressar nas forças armadas.
+        </p>
+        <p>
+            Em 2022, eu fui recrutado no Regimento de Cavalaria Lanceiros do Ponche Verde (14º RC Mec). Foi um ano de muitas experiências e desenvolvimento pessoal. Em 2023 consegui engajar para soldado EP, passei o ano todo esperando pela minha promoção a cabo e, no início de 2024, a tão esperada promoção chegou e hoje sou Cabo Fulgo Cabo Da Silva.
+        </p>
+    </div>
+
+    <!-- Rodapé da página -->
+    <footer>
+        <p>&copy; 2024 Ruan Pablo da Silva. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

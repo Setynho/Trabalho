@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <style>
+        /* Estilo para o corpo da página */
+        body {
+            margin: 0; /* Remove a margem padrão */
+            background-color: #333;
+            display: flex; /* Define o layout como flexível */
+            flex-direction: column; /* Organiza os elementos verticalmente */
+            align-items: center; /* Centraliza os elementos horizontalmente */
+        }
+
+        /* Estilo para a classe container */
+        .container {
+            display: grid; /* Define o layout como grid */
+        }
+
+        /* Estilo para o cabeçalho */
+        header {
+            margin-top: 0px; /* Remove a margem superior */
+            text-align: center; 
+            color: white; 
+            font-size: 34px; 
+        }
+
+        /* Estilo para o menu de navegação */
+        .menu {
+            margin-top: 10px; /* Define a margem superior */
+            justify-content: center; /* Centraliza o conteúdo */
+            font-size: 20px; /* Define o tamanho da fonte */
+        }
+
+        /* Estilo para a seção principal */
+        .principal {
+            color: white; 
+            text-align: center; /* Centraliza o texto */
+            padding-left: 500px; /* Adiciona preenchimento à esquerda */
+            padding-right: 500px; /* Adiciona preenchimento à direita */
+        }
+
+        /* Estilo para links */
+        a,
+        a:link {
+            text-decoration: none; /* Remove o sublinhado dos links */
+            padding: 8px 16px; /* Adiciona preenchimento ao redor do texto do link */
+            margin: 20px; /* Adiciona margem ao redor do link */
+            background-color: rgb(255, 255, 255); 
+        }
+
+        /* Estilo para itens de lista */
+        li {
+            list-style: none; /* Remove o marcador da lista */
+            float: left; /* Alinha os itens da lista horizontalmente */
+        }
+
+        /* Estilo para links ao passar o mouse */
+        a:hover {
+            color: rgb(55, 0, 255); /* Altera a cor do texto ao passar o mouse */
+            border-radius: 15px; /* Adiciona bordas arredondadas */
+            cursor: pointer; /* Altera o cursor para indicar um botão clicável */
+        }
+
+        /* Estilo para o container do formulário */
+        .form-container {
+            padding: 20px; /* Adiciona preenchimento */
+            margin-top: 30px; /* Adiciona margem superior */
+            background-color: #333;
+            border-radius: 10px; /* Adiciona bordas arredondadas */
+        }
+
+        /* Estilo para os rótulos dos campos do formulário */
+        label {
+            display: block; /* Exibe os rótulos como blocos */
+            margin-bottom: 10px; /* Adiciona margem inferior */
+            font-size: 18px;
+            color: white; 
+        }
+
+        /* Estilo para os campos de entrada e áreas de texto */
+        input, textarea {
+            width: 100%; /* Define a largura para preencher o contêiner */
+            padding: 10px; /* Adiciona preenchimento interno */
+            margin-bottom: 20px; /* Adiciona margem inferior */
+            margin-left: 5px; /* Adiciona margem à esquerda */
+            border: 1px solid #ffffff; /* Define a borda */
+            border-radius: 5px; /* Adiciona bordas arredondadas */
+            background-color: #000000; /* Define a cor de fundo */
+            color: white; /* Define a cor do texto */
+            font-size: 16px; /* Define o tamanho da fonte */
+        }
+
+        /* Estilo para o botão de envio */
+        button {
+            padding: 10px 20px; /* Adiciona preenchimento */
+            border: none; /* Remove a borda padrão */
+            border-radius: 5px; /* Adiciona bordas arredondadas */
+            background-color: #5cb85c;
+            color: white;
+            font-size: 18px; 
+            cursor: pointer;
+        }
+
+        /* Estilo para o botão de envio ao passar o mouse */
+        button:hover {
+            background-color: #4cae4c;
+        }
+
+        /* Estilo para o rodapé */
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem; /* Adiciona preenchimento */
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Cabeçalho da página -->
+    <header class="container">
+        <h1>Contato</h1>
+    </header>
+
+    <!-- Menu de navegação -->
+    <nav class="container menu">
+        <ul>
+            <li><a href="index.html">Sobre Mim</a></li>
+            <li><a href="hobbies.html">Meus Hobbies</a></li>
+            <li><a href="formação.html">Minha Formação</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <!-- Seção para o formulário de contato -->
+    <h1 style="color: white; margin-left: 75px; text-align: center;">Mande sua Mensagem</h1>
+    <form action="" method="" class="form-container">
+        <!-- Tabela para organizar os campos do formulário -->
+        <table>
+            <tr>
+                <th><label for="nome">Nome:</label></th> <!-- Rótulo para o campo de nome -->
+                <td><input type="text" name="nome" id="nome"></td> <!-- Campo de entrada para o nome -->
+            </tr>
+            <tr>
+                <th><label for="email">E-mail:</label></th> <!-- Rótulo para o campo de e-mail -->
+                <td><input type="email" name="email" id="email"></td> <!-- Campo de entrada para o e-mail -->
+            </tr>
+            <tr>
+                <th><label for="msg">Digite sua Mensagem:</label></th> <!-- Rótulo para o campo de mensagem -->
+                <td><textarea name="msg" rows="5" cols="40">Digite sua mensagem!</textarea></td> <!-- Área de texto para a mensagem -->
+            </tr>
+            <tr>
+                <td></td> <!-- Celula vazia -->
+                <td><button>Enviar</button></td> <!-- Botão para enviar o formulário -->
+            </tr>
+        </table>
+    </form>
+
+    <!-- Rodapé da página -->
+    <footer>
+        <p>&copy; 2024 Ruan Pablo da Silva. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
